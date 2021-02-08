@@ -566,3 +566,114 @@ h1 {
 .btn-sing-up:hover {
 	background-color: #29c1f0;
 }
+
+/*---------------------------------------------------------*/
+
+.page-subscribe {
+	padding: 70px 0 140px 0;
+	text-align: center;
+}
+.subscribe-form {
+	margin: 0 auto;
+	max-width: 396px;
+}
+.subscribe-form-item input {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 396px;
+	padding: 30px 0 30px 0;
+	background-color: #f5fafa;
+	border-radius: 38px;
+	font-size: 14px;
+	font-weight: 700;
+	border: 1px solid #f5fafa;
+	transition: 0.5s;
+}
+.subscribe-form-item+.subscribe-form-item {
+	margin-top: 25px;
+}
+.subscribe-form-item input:focus {
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.03);
+	box-shadow: 0 8px 16px rgba(92, 149, 161, 0.07);
+}
+.subscribe-form-item input::-webkit-input-placeholder {opacity: 0.35; color: #505050;}
+.subscribe-form-item input::-moz-placeholder          {opacity: 0.35; color: #505050;}/* Firefox 19+ */
+.subscribe-form-item input:-moz-placeholder           {opacity: 0.35; color: #505050;}/* Firefox 18- */
+.subscribe-form-item input:-ms-input-placeholder      {opacity: 0.35; color: #505050;}
+
+.btn-subscribe {
+	padding: 31px 134px 31px 134px;
+	margin: 86px auto 0;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: #66d4f4;
+	box-shadow: 0 10px 16px rgba(102, 212, 244, 0.3);
+	border-radius: 38px;
+	transition: 0.5s;
+}
+.btn-subscribe:hover {
+	transform: scale(1.1);
+}
+
+/*---------------------------------------------------------*/
+
+.box-footer {
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	display: flex;
+	justify-content: space-around;
+	padding: 55px 0 85px 0;
+	margin-bottom: 40px;
+}
+.footer-item-logo {
+	flex-basis: 20%;
+}
+.footer-item-logo p {
+	margin: 22px 0 22px 0;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 28px;
+}
+.footer-item-logo a {
+	margin-right: 20px;
+}
+.footer-item {
+ 	flex-basis: 15%;
+}
+.footer-item h4 {
+	color: #494949;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 45px;
+}
+.nav-footer-item {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 28px;
+	color: #7c7c7c;
+}
+.copyright-box {
+	padding-bottom: 45px;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 28px;
+}
+.copyright {
+	padding: 0 15px 0 30px;
+	border-right: 1px solid #7c7c7c;
+}
+.copyright-box p {
+	padding: 0 15px 0 15px;
+}
+.author {
+	border-left: 1px solid #7c7c7c;
+}
+.author span {
+	font-weight: 700;
+}
