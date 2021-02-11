@@ -420,7 +420,52 @@ h1 {
 	background-size: cover;
 	padding: 50px 0 100px 0;
 }
-
+.feedback-wrap {
+	max-width: 730px;
+}
+.feedback-box {
+	border-radius: 10px;
+	background-color: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	box-shadow: 0 0 51px rgba(0, 0, 0, 0.08);
+	position: relative;
+	padding: 85px 0 110px 0;
+	margin: 0 auto;
+}
+.user-icon {
+	width: 103px;
+	height: 104px;
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.user-data {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 30px;
+	margin-bottom: 45px;
+}
+.user-data span {
+	color: #494949;
+	font-size: 20px;
+	font-weight: 700;
+	display: block;
+}
+.feedback {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+	max-width: 570px;
+	margin: 0 auto;
+}
+.swiper-slide {
+	max-width: 730px;
+}
+.hidden-element {
+	background: transparent;
+	height: 52px;
+}
 /*--------------------------------------------------------------*/
 
 .page-resourse {
