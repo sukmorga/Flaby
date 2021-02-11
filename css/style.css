@@ -466,6 +466,58 @@ h1 {
 	background: transparent;
 	height: 52px;
 }
+.slider-btn-box {
+	width: 250px;
+	margin: 40px auto 0;
+	display: flex;
+	justify-content: flex-start;
+}
+.next-arrow {
+	position: relative;
+	color: #494949;
+	font-size: 18px;
+	font-weight: 700;
+	background: transparent;
+}
+.next-arrow::after {
+	content: "";
+	display: block;
+	background-image: url(../img/arrow-next.svg);
+	width: 35px;
+	height: 17px;
+	position: absolute;
+	top: 0;
+	right: -50px;
+}
+.prev-arrow {
+	position: relative;
+	color: #494949;
+	font-size: 18px;
+	font-weight: 700;
+	background: transparent;
+	flex-basis: 62%;
+}
+.prev-arrow::before {
+	content: "";
+	display: block;
+	background-image: url(../img/arrow-next.svg);
+	width: 35px;
+	height: 17px;
+	position: absolute;
+	top: 0;
+	left: -8px;
+	transform: rotate(180deg);
+}
+.prev-arrow:active {
+	transform: scale(0.9);
+}
+.next-arrow:active {
+	transform: scale(0.9);
+}
+.swiper-button-disabled {
+	opacity: 0.5;
+}
+
 /*--------------------------------------------------------------*/
 
 .page-resourse {
