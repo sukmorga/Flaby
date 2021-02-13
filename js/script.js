@@ -16,3 +16,12 @@ var swiper = new Swiper('.swiper-container', {
     },
     spaceBetween: -550,
 });
+
+$(document).ready(function () {
+    $(".btn-menu").click(function () {
+        $(".modal").show();
+    });
+    $(".btn-close").click(function () {
+        $(".modal").hide();
+    });
+});
