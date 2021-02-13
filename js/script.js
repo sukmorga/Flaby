@@ -19,7 +19,7 @@ var swiper = new Swiper('.swiper-container', {
 
 $(document).ready(function () {
     $(".btn-menu").click(function () {
-        $(".modal").show();
+        $(".modal").toggle();
     });
     $(".btn-close").click(function () {
         $(".modal").hide();
